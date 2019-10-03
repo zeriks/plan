@@ -12,6 +12,20 @@
                         @csrf
 
                         <div class="form-group row">
+                            <label for="militaryUnit_id" class="col-md-4 col-form-label text-md-right">{{ __('Military unit') }}</label>
+
+                            <div class="col-md-6">
+                                <select class="form-control" id="militaryUnit_id" name="militaryUnit_id">
+                                    <option value="1">Управління</option>
+                                    <option disabled>2</option>
+                                    <option disabled>3</option>
+                                    <option disabled>4</option>
+                                    <option disabled>5</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
                             <div class="col-md-6">
